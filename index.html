@@ -21,14 +21,44 @@
 </head>
 
 <body>
-    <header class="header col-sm-12">
-        <a href="#" class="logo">Logo</a>
-        <nav class="navbar">
+    <header class="header">
+        <a href="#" class="nav-logo">Logo</a>
+        <!-- <nav class="navbar">
             <a href="#">Home</a>
             <a href="#">About</a>
-            <a href="#">Services</a>
+            <a href="#">Skills</a>
             <a href="#">Portfolio</a>
             <a href="#">Contact</a>
+        </nav> -->
+        <nav class="navbar">
+
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
 
@@ -57,6 +87,29 @@
         <span class="home-imgHover"></span>
     </section>
 
+    <sectise class="About">
+
+        <div class="About-content">
+
+        </div>
+    </sectise>
+
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+
+        hamburger.addEventListener("click", mobilemmenu);
+
+        function mobilemmenu() {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        }
+
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
 </body>
 
 
