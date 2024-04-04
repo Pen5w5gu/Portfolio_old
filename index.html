@@ -62,8 +62,8 @@
         </nav>
     </header>
 
-    <section class="home">
-        <div>
+    <section class="home" id="home">
+        <div class="left">
             <div class="home-content">
                 <h1>Hi, I'm Nguyen Quan</h1>
                 <h3>Backend Developer</h3>
@@ -82,36 +82,365 @@
                         class="fa-brands fa-linkedin-in"></i></a>
             </div>
         </div>
+        <div class="right">
+            <img src="img/QAndPico.gif" alt="home-img">
+        </div>
 
-
-        <span class="home-imgHover"></span>
     </section>
 
-    <sectise class="About">
+    <sectise class="about background2" id="about">
+        <div class="container flex">
+            <div class="left">
+                <div class="content mtop">
+                    <div class="items flex mtop">
+                        <div class="box">
+                            <div class="number">
+                                <h5>90+</h5>
+                            </div>
+                            <div class="text">
+                                <h3>Happy Clients</h3>
+                            </div>
+                        </div>
 
-        <div class="About-content">
+                        <div class="box">
+                            <div class="number">
+                                <h5>2</h5>
+                            </div>
+                            <div class="text">
+                                <h3>Project Done</h3>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="item flex mtop">
+                        <div class="box">
+                            <div class="number">
+                                <h5>15+</h5>
+                            </div>
+                            <div class="text">
+                                <h3>Project Progress</h3>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="number">
+                                <h5>500+</h5>
+                            </div>
+                            <div class="text">
+                                <h3>Working Hours</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="heading">
+                    <div class="heading_top flex">
+                        <div class="line"></div>
+                        <div class="line line2"></div>
+                        <i class="fas fa-circle"></i>
+                        <h3>About Me</h3>
+                    </div>
+                    <div class="heading_bot">
+                        <h2><span>Nguyen Tai Quan</span></h2>
+                    </div>
+                    <div class="wrapper">
+                        <div class="static-txt">I'm a </div>
+                        <ul class="dynamic-txt">
+                            <li><span>Student at FPT University</span></li>
+                            <li><span>Frontend Developer</span></li>
+                            <li><span>Backend Developer</span></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="mg-top">
+                    <a href="https://export-download.canva.com/7TCaQ/DAGADz7TCaQ/60/0-5915901947958537001.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20240404%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240404T011531Z&X-Amz-Expires=69136&X-Amz-Signature=99cf7e203f7825e620f8e2de1a121981bfb43024943643c985f3262a5a90556d&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27CV%2520ti%25E1%25BA%25BFng%2520vi%25E1%25BB%2587t.pdf&response-expires=Thu%2C%2004%20Apr%202024%2020%3A27%3A47%20GMT"
+                        target="_blank" class="btn2 btn3">Download CV</a>
+                </div>
+            </div>
         </div>
     </sectise>
+
+    <section class="skills mtop" id="skills">
+        <div class="container flex">
+            <div class="left">
+                <!-- <div class="heading"> -->
+                    <div class="heading_top flex">
+                        <div class="line"></div>
+                        <div class="line line2"></div>
+                        <i class="fas fa-circle"></i>
+                        <h3>Ecpertise</h3>
+                    </div>
+                    <div class="heading_bot">
+                        <h2><span>My Skills & Tools</span></h2>
+                    </div>
+                </div>
+                <div class="text">
+                    <h3>Every Day is a New Callenge</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vero quibusdam molestias nihil,
+                        minus assumenda omnis ab, maxime temporibus nam sequi earum nesciunt iure quasi ipsum sint
+                        voluptatum itaque nobis?</p>
+
+                </div>
+            </div>
+            <div class="right">
+                <div class="line_content">
+                    <div class="line flex1 c80">
+                        <p>Java</p>
+                        <div class="bar">
+                            <div class="line_bar css"></div>
+                        </div>
+                        <h5>2 year+</h5>
+                    </div>
+                    <div class="line flex1 c40">
+                        <p>C#</p>
+                        <div class="bar">
+                            <div class="line_bar"></div>
+                        </div>
+                        <h5>4 month</h5>
+                    </div>
+                    <div class="line flex1 c80">
+                        <p>HTML & CSS</p>
+                        <div class="bar">
+                            <div class="line_bar"></div>
+                        </div>
+                        <h5>2 year+</h5>
+                    </div>
+                    <div class="line flex1 c60">
+                        <p>JavaScript</p>
+                        <div class="bar">
+                            <div class="line_bar"></div>
+                        </div>
+                        <h5>6 month</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="content flex1">
+                <div class="heading">
+                    <div class="heading_top flex">
+                        <h3>Portfolio</h3>
+                    </div>
+                    <div class="heading_bot">
+                        <h2><span>My Project</span></h2>
+                    </div>
+                </div>
+                <ul class="filter-menu">
+                    <li data-target="all">All</li>
+                    <li data-target="student">Student view</li>
+                    <li data-target="lecture">Lecture view</li>
+                </ul>
+            </div>
+
+            <div class="box">
+                <div class="filter-item">
+                    <li class="filter_container" data-item="all">
+                        <img src="img/Project1/Login.jpeg" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                <h3>Login Screen</h3>
+                                <p>Design Front end, Code func backend</p>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="filter_container" data-item="all">
+                        <img src="img/Project1/Register.jpeg" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                <h3>Register Screen</h3>
+                                <p>Design Front end, Code func backend</p>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="filter_container" data-item="student">
+                        <img src="img/Project1/Student/MyTask.jpeg" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                <h3>My Task Screen</h3>
+                                <p>Tasks of the students who have logged into the system</p>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="filter_container" data-item="student">
+                        <img src="img/Project1/Student/Task.jpeg" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                <h3>List Task Screen</h3>
+                                <p>List task in project to manager, Leader can create new task, assign task to member
+                                    and edit status of task. </p>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="filter_container" data-item="student">
+                        <img src="img/Project1/Student/TaskDetail.jpeg" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                <h3>Task Detail Screen</h3>
+                                <p>Show task detail and member in team can discuss task.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="filter_container" data-item="student">
+                        <img src="img/Project1/Student/AddTask.jpeg" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                <h3>Add Task Screen</h3>
+                                <p>Leader can create new task:<br>
+                                    + Input Task Name <br>
+                                    + Input Id Milestone<br>
+                                    + Input Task Description<br>
+                                    + Input Start Date<br>
+                                    + Input End Date<br>
+                                    + Status is To do after create</p>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="filter_container" data-item="student">
+                        <img src="img/Project1/Student/AssignTask.jpeg" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                <h3>Assign Task Screen</h3>
+                                <p>Show selected task list and Student list in project to assign task. </p>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="filter_container" data-item="student">
+                        <img src="img/Project1/Student/Milestone.jpeg" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                <h3>List Milestone Screen</h3>
+                                <p>+ List milestone in project to manager, Leader can create new milestone, edit
+                                    milestone
+                                    and delete milestone.<br>
+                                    +Click in name milestone to show list of task in that milestone </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="filter_container" data-item="student">
+                        <img src="img/Project1/Student/AddMilestone.jpeg" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                <h3>Add Milestone Screen</h3>
+                                <p>Leader can add milestone in project.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="filter_container" data-item="student">
+                        <img src="img/Project1/Student/Issues.jpeg" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                <h3>List Issues Screen</h3>
+                                <p>+ Show list Issues(open, closed) in project<br>
+                                    + Member in project can discuss and close issue </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="filter_container" data-item="student">
+                        <img src="img/Project1/Student/AddIssue.jpeg" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                <h3>Add Issues Screen</h3>
+                                <p>Add new issue</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="filter_container" data-item="student">
+                        <img src="img/Project1/Student/Notification.jpeg" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                <h3>Notification</h3>
+                                <p>Show notification</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="filter_container" data-item="lecture">
+                        <img src="img/Project1/Lecture/Classes.jpeg" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                <h3>Classes Screen</h3>
+                                <p>Show list class lecture manage</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="filter_container" data-item="lecture">
+                        <img src="img/Project1/Lecture/ProjectInClass.jpeg" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                <h3>Project in class Screen</h3>
+                                <p>Show list project in class</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="filter_container" data-item="lecture">
+                        <img src="img/Project1/Lecture/StudentInClass.jpeg" class="image">
+                        <div class="overlay">
+                            <div class="text">
+                                <h3>Student in class Screen</h3>
+                                <p>Show list student in class</p>
+                            </div>
+                        </div>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script>
+        let sortBtn = document.querySelector('.filter-menu').children;
+        let sortItem = document.querySelector('.filter-item').children;
+
+        for (let i = 0; i < sortBtn.length; i++) {
+            sortBtn[i].addEventListener('click', function () {
+                for (let j = 0; j < sortBtn.length; j++) {
+                    sortBtn[j].classList.remove('current');
+                }
+
+                this.classList.add('current');
+
+
+                let targetData = this.getAttribute('data-target');
+
+                for (let k = 0; k < sortItem.length; k++) {
+                    sortItem[k].classList.remove('active');
+                    sortItem[k].classList.add('delete');
+
+                    if (sortItem[k].getAttribute('data-item') == targetData || targetData == "all") {
+                        sortItem[k].classList.remove('delete');
+                        sortItem[k].classList.add('active');
+                    }
+                }
+            });
+        }
+    </script>
 
     <script>
         const hamburger = document.querySelector(".hamburger");
         const navMenu = document.querySelector(".nav-menu");
 
-        hamburger.addEventListener("click", mobilemmenu);
+        hamburger.addEventListener("click", mobileMenu);
 
-        function mobilemmenu() {
+        function mobileMenu() {
             hamburger.classList.toggle("active");
             navMenu.classList.toggle("active");
         }
 
         window.addEventListener("scroll", function () {
             var header = document.querySelector("header");
-            header.classList.toggle("sticky", window.scrollY > 0);
+            header.classList.toggle("active", window.scrollY > 0);
         })
     </script>
 </body>
-
-
 
 </html>
