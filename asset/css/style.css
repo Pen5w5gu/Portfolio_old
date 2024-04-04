@@ -17,9 +17,6 @@
     font-family: 'Poppins', 'sans-serif';
 }
 
-section {
-    height: 100vh;
-}
 
 body {
     position: relative;
@@ -581,10 +578,6 @@ p {
 
 /* about */
 /* Skill */
-.line_content .line {
-    display: flex;
-    margin-bottom: 10px;
-}
 
 .line_content p {
     width: 35%;
