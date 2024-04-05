@@ -431,6 +431,7 @@
         const hamburger = document.querySelector(".hamburger");
         const navMenu = document.querySelector(".nav-menu");
 
+        // Thêm sự kiện click cho hamburger
         hamburger.addEventListener("click", mobileMenu);
 
         function mobileMenu() {
@@ -438,11 +439,20 @@
             navMenu.classList.toggle("active");
         }
 
+        // Thêm sự kiện click cho navMenu
+        navMenu.addEventListener("click", function () {
+            // Loại bỏ lớp active từ hamburger
+            hamburger.classList.remove("active");
+            navMenu.classList.remove("active");
+        });
+
+        // Thêm sự kiện scroll cho cửa sổ
         window.addEventListener("scroll", function () {
             var header = document.querySelector("header");
             header.classList.toggle("active", window.scrollY > 0);
-        })
+        });
     </script>
+
 </body>
 
 </html>
