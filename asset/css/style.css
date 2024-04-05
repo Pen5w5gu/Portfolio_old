@@ -17,12 +17,15 @@
     font-family: 'Poppins', 'sans-serif';
 }
 
+html {
+
+    scroll-behavior: smooth;
+}
 
 body {
     position: relative;
     background: var(--background-color);
     color: var(--white-color);
-    scroll-behavior: smooth;
 }
 
 li {
@@ -98,6 +101,9 @@ a {
     z-index: 100;
 }
 
+.header.active {
+    background: var(--background-color);
+}
 
 .nav-logo {
     position: relative;
@@ -159,6 +165,10 @@ p {
 
 .mtop {
     margin-top: 5%;
+}
+
+.mtop2 {
+    margin-top: 10%;
 }
 
 .heading .line {

@@ -1,7 +1,5 @@
 @media only screen and (max-width:768px) {
-    .header.active {
-        background: var(--background-color);
-    }
+
 
     .nav-menu {
         position: fixed;
