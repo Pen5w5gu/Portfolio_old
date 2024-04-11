@@ -101,8 +101,12 @@ a {
     z-index: 100;
 }
 
+
 .header.active {
-    background: var(--background-color);
+    background: linear-gradient(135deg, #0F161C);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+    border-bottom: 1px solid #1c2329;
 }
 
 .nav-logo {
