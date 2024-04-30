@@ -69,6 +69,22 @@
         order: -1;
     }
 
+    .line p {
+        font-size: 13px;
+    }
+
+    .line h5 {
+        font-size: 11px;
+    }
+
+    .about .items {
+        margin-left: 0;
+    }
+
+    .about .items:nth-child(1) {
+        margin-left: 0;
+    }
+
     /* portfolio */
     .filter_container .image {
         width: 100%;
